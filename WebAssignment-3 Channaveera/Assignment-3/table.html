@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<!-- Also read chapter 9 from slides - Regular Expressions -->
+
+<html>
+<head>
+	<title>Table CheckList</title>
+	<link rel="stylesheet" type="text/css" href="table.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+
+</head>
+<body>
+	<h1 id class="mydetails"> Channaveera . NUID - 002825263</h1>
+
+	<table id="myTable">
+		<tr>
+			<th></th>
+			<th>STUDENT</th>
+			<th>ADVISOR</th>
+			<th>AWARD<br/>STATUS</th>
+			<th>SEMESTER</th>
+			<th>TYPE</th>
+			<th>BUDGET<br />#</th>
+			<th>PERCENTAGE</th>
+			<th id="deleteHeader" style="display: none;">DELETE</th>
+			<th id="editHeader" style="display: none;">EDIT</th>
+
+		</tr>
+
+	</table>
+
+	<br /><br />
+	
+	<button id="button" onclick="submitAwards()" disabled>SUBMIT SELECTED AWARDS</button>
+
+	<!-- <button id="button">SUBMIT SELECTED AWARDS</button> -->
+	<button id="add" onclick ="addStudentData()"> Add New Student</button>
+
+	<nav class="socialmediaicons"></nav>
+	<script src="script.js"></script>
+	
+</body>
+</html>

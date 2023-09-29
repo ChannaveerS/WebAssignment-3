@@ -1,0 +1,38 @@
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+}
+
+.socialmediaicons ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socialmediaicons ul li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.socialmediaicons ul li img {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.socialmediaicons{
+	text-align: center;
+}
+
+.dropDownTextArea {
+  display: none;
+}
+.checkedRow {
+  background-color: yellow;
+}
+
+  /* Gray out the disabled button */
+#button:disabled 
+{
+  background-color: #ddd;
+  color: gray;
+  cursor: not-allowed;
+}
